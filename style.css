@@ -1,0 +1,64 @@
+body {
+    padding: 0px;
+        background-color: #212529;
+    width: 99vw;
+}
+
+* {
+    text-align: center;
+}
+
+/*----------Scroll bar ------------*/
+::-webkit-scrollbar {width: 5px;
+
+}
+
+::-webkit-scrollbar-track {background-color: #202020;border-radius: 1px;
+
+}
+
+::-webkit-scrollbar-thumb {background-color: gray;border-radius: 1px;
+
+}
+
+.container {
+    /* background-color: green; */
+    background-color: transparent;
+}
+
+@media (min-width: 768px) {
+    .my-custom-container{
+        width:600px;
+    }
+}
+
+.computer {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    top: 7px;
+    cursor: pointer;
+    margin: 15px 15px;
+    right: 0px;
+}
+.computer:hover {
+    color: gray;
+}
+
+
+/* .card {
+    display: inline-block;
+    transition: 2s;
+  }
+
+  .card:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);  
+    } */
+
+    .space-between {
+        height: 100px;
+        width: 100%;
+        /* border: 1px solid white; */
+      }
